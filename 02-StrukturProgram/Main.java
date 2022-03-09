@@ -2,7 +2,7 @@ public class Main { // class Main
 
     // public = class ini terbuka untuk umum, bisa di akses oleh siapa saja
     // class = class untuk program
-    // Main = nama class
+    // Main = Nama class harus sama dengan nama file java
     
     public static void main(String[] args) { // ini adalah method, gerbang utama program
         
