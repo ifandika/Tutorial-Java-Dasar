@@ -1,4 +1,4 @@
-package com.tutorial;
+package java.code;
 
 public class TipeData {
     

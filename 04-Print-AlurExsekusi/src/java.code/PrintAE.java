@@ -1,7 +1,6 @@
+package java.code;
 
-package com.tutorial;
-
-public class Main {
+public class PrintAE {
     
     public static void main(String[] args) {
         

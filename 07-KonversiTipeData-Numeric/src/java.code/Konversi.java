@@ -1,4 +1,4 @@
-package com.tutorial;
+package java.code;
 
 public class Konversi {
     
@@ -30,7 +30,7 @@ public class Konversi {
         // jika salah satu bilangan pecahan maka hasil berupa bilangan pecahan
         float hasil = (float)pembagi / dibagi;
         
-        // % = untuk memasukan 
+        // % = untuk format
         // %d = desimal
         // %f = float
         
