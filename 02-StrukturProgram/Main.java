@@ -8,7 +8,7 @@ public class Main { // class Main
         
         // public = method public ini akan di akses oleh system sehingga harus public
         // static = 
-        // void = 
+        // void = tipe data tanpa kembalian
         // main = nama default dari java untuk menentukan ini adalah main program, program utama
     }
 }
