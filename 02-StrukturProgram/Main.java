@@ -1,4 +1,4 @@
-public class Main { // class Main
+public class Main { // class Main, class tidak harus public
 
     // public = class ini terbuka untuk umum, bisa di akses oleh siapa saja
     // class = class untuk program

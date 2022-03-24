@@ -61,7 +61,7 @@ public class PengenalanString {
     }
     
     private static void printDataString(String nama, String data) {
-        int address = System.identityHashCode(data);
-        System.out.println(nama + " | address : " + Integer.toHexString(address));
+        // Integer.toHexString(System.identityHashCode(Vadiabel)) --> menampilkan address
+        System.out.println(nama + " | address : " + Integer.toHexString(System.identityHashCode(data)));
     }
 }

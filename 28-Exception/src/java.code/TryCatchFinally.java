@@ -1,8 +1,8 @@
-package java.code;
+package code;
 
 import java.util.Scanner;
 
-public class PengenalanException {
+public class TryCatchFinally {
     
     public static void main(String[] args) {
         
@@ -27,14 +27,29 @@ public class PengenalanException {
         // atau bisa juga kita isi pada parameter dengan pesan error
         // contoh error berupa nilai yang di masukan tidak sesuai dengan panjang array
         // ArrayIndexOutOfBoundsException
-        }catch(Exception erorExcep) { // akan menangkap error, catch bisa lebih dari 1
+        }
+        catch(Exception erorExcep) { // akan menangkap error, catch bisa lebih dari 1
          // System.err.
             System.out.println(erorExcep.getMessage()); // .getMessage() untuk menampilkan poin utama dari error
+            // , namun pesan error akan berada paling bawah
         }
         
+        System.out.println();
         
+        // finally
+        try {
+            System.out.printf("nilai array ke%d, -> %d\n", nilai, numRay[nilai]);
+        }
+        catch (Exception e) {
+            System.err.println(e);
+        }
+        finally { // akan di eksekusi setelah try dan catch, jika error akan tetap di jalankan
+            
+            System.out.println("ini finally");
+            
+        }
         
-        
+        System.out.println("\nAkhir dari program");
         
     }
 }
