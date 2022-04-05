@@ -12,6 +12,7 @@ public class Unary {
         int ageUcup = 97;
         int ageKipli = 55;
         
+        // before
         System.out.println("ageUcup " + +ageUcup);
         System.out.println("ageKipli " + -ageKipli);
         

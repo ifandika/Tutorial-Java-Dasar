@@ -3,7 +3,6 @@ package java.code;
 public class SwitchLambda {
     
     public static void main(String[] args) {
-        /*
         
         // Switch Lambda (Java 14 keatas)
         
@@ -51,6 +50,5 @@ public class SwitchLambda {
         
         System.out.println(ucapan);
         
-        */
     }
 }

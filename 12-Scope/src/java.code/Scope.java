@@ -1,6 +1,11 @@
 package java.code;
 
+// global scope file
+
 public class Scope {
+    
+    // global scope class
+    int dataGlobal = 12345;
     
     public static void main(String[] args) {
         

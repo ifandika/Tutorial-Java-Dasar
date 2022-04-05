@@ -4,6 +4,7 @@ public class TipeData {
     
     public static void main(String[] args) {
         
+        /* Tipe Data Primitive/Bawaan */
         // Tipe Data pada Java
         // integer, byte, long, short, double, float, char, boolean
         
@@ -75,6 +76,55 @@ public class TipeData {
         System.out.println("Max Range = " + Boolean.TRUE);
         // System.out.println("size      = " + Boolean.BYTES + " byte");
         // System.out.println("size      = " + Boolean.SIZE + " bit");
+        
+        int numDecimal = 35;
+        int hexaDecimal = 0xFFFFF;
+        int binaryDecimal = 0b01010110;
+        
+        System.out.println(numDecimal);
+        System.out.println(hexaDecimal);
+        System.out.println(binaryDecimal);
+        
+        // mengunakan underscore
+        double harga = 1_000_000_000;
+        
+        System.out.println(harga);
+        
+        System.out.println("\n");
+        /* Tipe Data Bukan Primitive/Object */
+        // pada tipe data bukan primitive memiliki method karena ia adalah object
+        // nilai default pada tipe data bukan primitive adalah null(kosong)
+        
+        Byte iniByte = 100;
+        System.out.println(iniByte);
+        
+        Short iniShort = 1000;
+        System.out.println(iniShort);
+        
+        Integer iniInteger = 10000;
+        System.out.println(iniInteger);
+        
+        Long iniLong = 100000;
+        System.out.println(iniLong);
+        
+        Float iniFloat = 1.123;
+        System.out.println(iniFloat);
+        
+        Double iniDouble = 1.12345;
+        System.out.println(iniDouble);
+        
+        Character iniCharacter = 'A';
+        System.out.println(iniCharacter);
+        
+        Boolean iniBoolean = true;
+        System.out.println(iniBoolean);
+        
+        String iniString = "kipli";
+        System.out.println(iniString);
+        
+        // contoh nilai default
+        Short nilaiDefault;
+        System.out.println(nilaiDefault);
         
     }
 }

@@ -37,7 +37,7 @@ public class OperasiArray {
         System.out.println(Arrays.binarySearch(noUndian, noCari));
         
         System.out.println("\n[ Equals ]");
-        // membadingkan dua buah array
+        // membandingkan dua buah array
         byte[] nilaiSiswa1 = {80, 90,50, 45, 75};
         byte[] nilaiSiswa2 = {81, 90,50, 45, 75};
         
@@ -48,6 +48,13 @@ public class OperasiArray {
             System.out.println("tidak");
         }
         
+        System.out.println("\n[ Membandingkan ]");
+        
+        // membandingkan jumlah nilai pada array mana yang lebih besar
+        System.out.println(Arrays.compare(nilaiSiswa1, nilaiSiswa2));
+        
+        // check nilai pada dua buah array mana yang beda
+        System.out.println(Arrays.mismatch(nilaiSiswa1, nilaiSiswa2));
         
     }
     

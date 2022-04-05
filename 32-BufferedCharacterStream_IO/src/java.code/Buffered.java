@@ -36,6 +36,7 @@ public class Buffered {
         bufferRead.reset();
         
         // menulis data ke file
+        // pada FileWriter terdapat mode untuk menulis ke database
         FileWriter fileOutput = new FileWriter("output.txt");
         BufferedWriter bufferWrite = new BufferedWriter(fileOutput);
         

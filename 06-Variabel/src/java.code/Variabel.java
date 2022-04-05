@@ -1,6 +1,6 @@
 package java.code;
 
-public class Var {
+public class Variabel {
     
     public static void main(String[] args) {
         
@@ -21,6 +21,22 @@ public class Var {
         variabel_2 = 200;
         
         System.out.println("nilai variabel 2 = " + variabel_2);
+        
+        // kata kunci var, finally
+        // var = sebuah keyword untuk variabel bertipe apapun, namun harus langsung di assign
+        // finally = keyowrd mirip const/konstanta pada bahasa p lain, yaitu sebuah variabel konstan yang tidak dapat diubah
+        
+        // java 10
+        // var num; -> eror
+        // num = 10;
+        var varOtomatis = "ini keyword var"
+        
+        System.out.println(varOtomatis);
+        
+        finally int varFinally = 100;
+        // varFinally = 200; -> error
+        
+        System.out.println(varFinally);
         
     }
 }
