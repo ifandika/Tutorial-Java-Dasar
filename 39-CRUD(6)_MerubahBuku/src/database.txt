@@ -1,0 +1,7 @@
+Ifandika_1999_1,1999,Comedy,Ifandika,Tips Jantan
+Jupri_2015_1,2015,Romantis,Jupri,Cinta
+Kipli_2020_1,2020,Adventure,Kipli,Jelajah Hutan Rimbun
+Kipli_2020_2,2020,Survival,Kipli,Hari Terakhir
+Jamet_2018_1,2018,Inspiratif,Jamet,Sukses dalam semalam
+Kipli_2020_3,2020,Romantis,Kipli,Cinta Ini
+Kipli_2020_4,2020,Romantis,Kipli,Sayang
