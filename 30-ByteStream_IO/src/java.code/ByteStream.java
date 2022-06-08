@@ -1,4 +1,5 @@
 package java.code;
+package java.code;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

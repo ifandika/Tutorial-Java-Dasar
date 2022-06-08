@@ -32,14 +32,11 @@ public class Unary {
         System.out.println("prefix -- = " + --num2);
         
         num1 = 5;
-        num1++;
-        
         num2 = 5;
-        num2--;
         
         // postfix
-        System.out.println("postfix ++ = " + num1);
-        System.out.println("postfix -- = " + num2);
+        System.out.println("postfix ++ = " + num1++);
+        System.out.println("postfix -- = " + num2--);
         
         // operator boolean !
         boolean numBool1 = true;
